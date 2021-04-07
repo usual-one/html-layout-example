@@ -1,0 +1,154 @@
+:root {
+  --white-color: #FFFFFF;
+  --black-color: #373737;
+  --grey-color: #7D7D7D;
+
+  --accent-color: #717CFF;
+
+  --base-font: Alata, sans-serif;
+
+  --button-border-radius: 10px;
+}
+
+body {
+  height: 100vh;
+
+  margin: 0;
+  padding: 40px 10%;
+  padding-right: 7%;
+
+  background: var(--white-color);
+  
+  color: var(--black-color);
+  font-family: var(--base-font); 
+
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  font-size: 17px;
+}
+
+.nav-element {
+  margin-right: 70px;
+}
+
+.apply-nav-button {
+  width: 110px;
+  height: 40px;
+
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+
+  border: 2px solid var(--accent-color);
+  border-radius: var(--button-border-radius);
+
+  font-family: var(--base-font);
+}
+
+section#preview {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 60%;
+}
+
+.title {
+  font-size: 56px;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.title span {
+  color: var(--accent-color);
+}
+
+.description {
+  color: var(--grey-color);
+  font-size: 22px;
+
+  margin: 15px 0;
+}
+
+.apply-button {
+  width: 260px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white-color);
+  font-size: 22px;
+
+  background: var(--accent-color);
+
+  border-radius: var(--button-border-radius);
+  border: none;
+}
+
+.button-icon {
+  width: 30px;
+  margin-left: 30px;
+}
+
+.contact-container {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-icon {
+  height: 20px;
+  margin-right: 25px;
+}
+
+.twitter-icon {
+  height: 30px;
+}
+
+.illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.woman {
+  height: 70vh;
+
+  position: absolute;
+  right: 8vw;
+  bottom: 0;
+}
+
+.ellipse {
+  height: 70vh;
+
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: -10vh;
+}
